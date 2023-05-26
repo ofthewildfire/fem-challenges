@@ -7,38 +7,91 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
-  <title>Frontend Mentor | News homepage</title>
+  <title>News homepage</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
+  <header class="header-main">
+    <img class="header-main__logo" src="./assets/images/logo.svg" alt="Homepage logo icon">
+    <nav class="navigation-main">
+      <ul class="navigation-main__link-list">
+        <li class="navigation-main__link-item"><a href="#" class="navigation-main__link">Home</a></li>
+        <li class="navigation-main__link-item"><a href="#" class="navigation-main__link">New</a></li>
+        <li class="navigation-main__link-item"><a href="#" class="navigation-main__link">Popular</a></li>
+        <li class="navigation-main__link-item"><a href="#" class="navigation-main__link">Trending</a></li>
+        <li class="navigation-main__link-item"><a href="#" class="navigation-main__link">Categories</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  Home
-  New
-  Popular
-  Trending
-  Categories
+  <main>
+    <div class="image">
+      <img src="./assets/images/image-web-3-desktop.jpg" alt="Retr color sockets depicting web3" class="feature">
+    </div>
 
-  The Bright Future of Web 3.0?
+    <h1 class="feature_title">
+      The Bright Future of Web 3.0?
+    </h1>
+    <div class="feature_blurb">
+      <p> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands
+        of the
+        people.
+        But is it really fulfilling its promise?</p>
+      <a href="#">Read More</a>
+    </div>
+    <div class="sidebar">
+      <h2>New</h2>
+      <ul>
+        <li>Random List Item 1</li>
+        <li>Random List Item 2</li>
+        <li>Random List Item 3</li>
+      </ul>
+    </div>
+    <div class="news">
+      <div class="panel-1">
+        <h2>01</h2>
+        <h3>Random</h3>
+        <p>lorem impsum dolemar something or other idk latin folks</p>
+      </div>
+      <div class="panel-2">
+        <h2>02</h2>
+        <h3>Random</h3>
+        <p>lorem impsum dolemar something or other idk latin folks</p>
+      </div>
+      <div class="panel-3">
+        <h2>03</h2>
+        <h3>Random</h3>
+        <p>lorem impsum dolemar something or other idk latin folks</p>
+      </div>
+    </div>
+  </main>
 
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the
-  people.
-  But is it really fulfilling its promise?
+  <!-- <main class="main-content">
+    <section class="main-content_featured">
+      <img src="./assets/images/image-web-3-desktop.jpg" alt="Web 3 sockets with a retro colour">
+      <h1 class="main-content_featured-title">
+        The Bright Future of Web 3.0?
+      </h1>
+    </section>
+    <section class="main-content_sidebar">
+      <h2>New</h2>
+      <ul class="main-content_sidebar-list">
+
+      </ul>
+    </section>
+  </main> -->
+
+  <!--
+
+
+
+ 
 
   Read more
 
@@ -63,7 +116,7 @@
 
   03
   The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
+  How the pandemic has sparked fresh opportunities. -->
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
