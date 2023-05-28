@@ -35,3 +35,5 @@ const JuniorChallenges = [
 	"blogr-landing-page-main",
 	"clipboard-landing-page-master",
 ];
+
+function named(params) {}
