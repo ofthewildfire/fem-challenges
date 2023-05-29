@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  place-content: center;
+  background-color: #222;
+}
+
+#app {
+  text-align: center;
+  border-top: 12px solid rgb(229, 192, 255);
+  border-bottom: 12px solid rgb(192, 255, 204);
+  border-right: 12px solid rgb(255, 192, 192);
+  border-left: 12px solid rgb(255, 213, 192);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px white;
+  color: thistle;
+  max-width: 400px;
+  padding: 2em;
+  height: 100%;
+  max-height: 400px;
+  margin: 0 auto;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: 0;
+  outline: none;
+  padding: .75em 3em;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: lightgreen;
+  background-color: tomato;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px thistle;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+
+button:hover {
+  background-color: thistle;
+  box-shadow: 1px 1px 5px tomato;
+  color: #222;
+}
