@@ -1,6 +1,5 @@
 * {
   border: 0;
-  outline: 0;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -18,24 +17,16 @@
   --DarkGrayishBlue: hsl(217, 19%, 24%);
   --DarkBlue: hsl(218, 23%, 16%);
 
-
   --PrimaryFont: 'Manrope', sans-serif;
-  /*  */
-  --QouteFontSize: 28px;
 }
 
-/* Text */
-
-h1,
-span,
-h2 {
-  font-family: var(--PrimaryFont);
-}
 
 body {
+  font-family: var(--PrimaryFont);
   display: flex;
   height: 100vh;
   align-items: center;
+  text-align: center;
   justify-content: center;
   background-color: var(--DarkBlue);
 }
@@ -51,7 +42,6 @@ body {
 }
 
 .dice-container {
-  margin: 0 auto;
   background-color: var(--NeonGreen);
   border-radius: 50%;
   height: 40px;
@@ -84,21 +74,21 @@ body {
 .dice-container:hover,
 .dice-container:focus,
 .dice-container:active {
-  box-shadow: 1px 1px 10px var(--LightCyan);
+  box-shadow: 1px 1px 20px var(--LightCyan);
+  cursor: pointer;
 }
+
 
 .advice-text {
   font-size: 28px;
   color: var(--LightCyan);
-  text-align: center;
   margin: 1em 0;
   padding: 0 1em;
 }
 
 h2 {
   font-size: 12px;
-  text-align: center;
-  margin-top: 1em;
+  margin-top: 1.5em;
   color: var(--NeonGreen);
   text-transform: uppercase;
   letter-spacing: 3px;
